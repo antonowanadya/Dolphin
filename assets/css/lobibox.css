@@ -1,0 +1,406 @@
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(/templates/default/assets/js/lobibox/fonts/glyphicons-halflings-regular.eot);
+    src: url(/templates/default/assets/js/lobibox/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(/templates/default/assets/js/lobibox/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(/templates/default/assets/js/lobibox/fonts/glyphicons-halflings-regular.woff) format('woff'), url(/templates/default/assets/js/lobibox/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(/templates/default/assets/js/lobibox/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.glyphicon-remove-sign:before {
+    content: "\e083"
+}
+
+.glyphicon-ok-sign:before {
+    content: "\e084"
+}
+
+.glyphicon-info-sign:before {
+    content: "\e086"
+}
+
+.lobibox-notify-wrapper {
+    z-index: 9000;
+    position: fixed
+}
+
+.lobibox-notify-wrapper.top {
+    top: 0px
+}
+
+.lobibox-notify-wrapper.bottom {
+    bottom: 0px
+}
+
+.lobibox-notify-wrapper.left {
+    left: 0px;
+    margin-right: 0px
+}
+
+.lobibox-notify-wrapper.right {
+    right: 0px;
+    margin-left: 0px
+}
+
+.lobibox-notify-wrapper.right .lobibox-notify {
+    margin-left: auto
+}
+
+.lobibox-notify-wrapper.center {
+    left: 50%
+}
+
+.lobibox-notify-wrapper-large {
+    z-index: 5000;
+    position: fixed
+}
+
+.lobibox-notify-wrapper-large.top {
+    top: 0px
+}
+
+.lobibox-notify-wrapper-large.bottom {
+    bottom: 0px
+}
+
+.lobibox-notify-wrapper-large.left {
+    left: 0px
+}
+
+.lobibox-notify-wrapper-large.left .lb-notify-tabs > li {
+    float: left;
+    margin-left: 0;
+    margin-right: 2px
+}
+
+.lobibox-notify-wrapper-large.right {
+    right: 0px
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 -5px 0
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li {
+    float: right;
+    margin-left: 2px
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li > a {
+    text-align: center;
+    display: table;
+    text-decoration: none;
+    font-size: 18px;
+    height: 32px;
+    color: #FFF;
+    width: 28px;
+    opacity: 0.6
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li > a:hover,
+.lobibox-notify-wrapper-large .lb-notify-tabs > li > a:active,
+.lobibox-notify-wrapper-large .lb-notify-tabs > li > a:focus,
+.lobibox-notify-wrapper-large .lb-notify-tabs > li > a:hover:active {
+    color: #FFF
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li > a .tab-control-icon {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.lobibox-notify-default > a {
+    background-color: rgba(28, 28, 28, 0.9);
+    border-color: #141414
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.lobibox-notify-default > a:hover {
+    background-color: #1c1c1c;
+    border-color: #0f0f0f
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.lobibox-notify-error > a {
+    background-color: rgba(202, 33, 33, 0.9);
+    border-color: #bd1f1f
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.lobibox-notify-error > a:hover {
+    background-color: #CA2121;
+    border-color: #b41d1d
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.lobibox-notify-success > a {
+    background-color: rgba(41, 184, 126, 0.9);
+    border-color: #26ab75
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.lobibox-notify-success > a:hover {
+    background-color: #29B87E;
+    border-color: #24a370
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.lobibox-notify-warning > a {
+    background-color: rgba(206, 129, 46, 0.9);
+    border-color: #c1792b
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.lobibox-notify-warning > a:hover {
+    background-color: #CE812E;
+    border-color: #b97429
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.lobibox-notify-info > a {
+    background-color: rgba(46, 121, 180, 0.9);
+    border-color: #2b71a8
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.lobibox-notify-info > a:hover {
+    background-color: #2E79B4;
+    border-color: #296ba0
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs > li.active > a {
+    opacity: 1
+}
+
+.lobibox-notify-wrapper-large .lb-notify-tabs:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.lobibox-notify-wrapper-large .lb-notify-wrapper {
+    background-color: transparent;
+    padding: 0;
+    border: none
+}
+
+.lobibox-notify-wrapper-large .lb-notify-wrapper .lb-tab-pane {
+    display: none
+}
+
+.lobibox-notify-wrapper-large .lb-notify-wrapper .lb-tab-pane.active {
+    display: block
+}
+
+.lobibox-notify-wrapper-large .lb-notify-wrapper .lobibox-notify {
+    min-height: 150px
+}
+
+.lobibox-notify-wrapper-large .lb-notify-wrapper .lobibox-notify .lobibox-notify-icon-wrapper {
+    width: 100px
+}
+
+.lobibox-notify-wrapper-large .lb-notify-wrapper .lobibox-notify .lobibox-notify-icon > div .icon-el {
+    font-size: 78px
+}
+
+.lobibox-notify-wrapper-large .lb-notify-wrapper .lobibox-notify .lobibox-notify-body {
+    margin: 13px 20px;
+    margin-left: 130px
+}
+
+.lobibox-notify {
+    position: relative;
+    min-height: 85px;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    margin: 7px 0;
+    border-radius: 0;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #aaa;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s
+}
+
+.lobibox-notify .lobibox-notify-icon-wrapper {
+    position: absolute;
+    left: 15px;
+    width: 60px;
+    height: 100%
+}
+
+.lobibox-notify .lobibox-notify-icon {
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+.lobibox-notify .lobibox-notify-icon > div {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.lobibox-notify .lobibox-notify-icon > div > img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 3px;
+    border-radius: 4px
+}
+
+.lobibox-notify .lobibox-notify-icon > div .icon-el {
+    text-align: center;
+    font-size: 55px
+}
+
+.lobibox-notify .lobibox-notify-body {
+    margin: 10px 20px;
+    margin-left: 90px
+}
+
+.lobibox-notify .lobibox-notify-title {
+    font-size: 20px
+}
+
+.lobibox-notify .lobibox-notify-msg {
+    overflow: hidden
+}
+
+.lobibox-notify .lobibox-close {
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    line-height: 19px;
+    width: 19px;
+    height: 19px;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s
+}
+
+.lobibox-notify .lobibox-close:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold
+}
+
+.lobibox-notify .lobibox-delay-indicator {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px
+}
+
+.lobibox-notify .lobibox-delay-indicator > div {
+    position: relative;
+    height: 100%;
+    width: 0;
+    background-color: #e8e8e8
+}
+
+.lobibox-notify.lobibox-notify-default {
+    border-color: #0f0f0f;
+    background-color: #1c1c1c;
+    color: #FFF
+}
+
+.lobibox-notify.lobibox-notify-default:hover {
+    background-color: #1c1c1c;
+    border-color: #FFF
+}
+
+.lobibox-notify.lobibox-notify-default .lobibox-close:hover {
+    background-color: #4f4f4f
+}
+
+.lobibox-notify.lobibox-notify-error {
+    border-color: #b41d1d;
+    background-color: #CA2121;
+    color: #FFF
+}
+
+.lobibox-notify.lobibox-notify-error:hover {
+    background-color: #CA2121;
+    border-color: #FFF
+}
+
+.lobibox-notify.lobibox-notify-success {
+    border-color: #24a370;
+    background-color: #29B87E;
+    color: #FFF
+}
+
+.lobibox-notify.lobibox-notify-success:hover {
+    background-color: #29B87E;
+    border-color: #FFF
+}
+
+.lobibox-notify.lobibox-notify-warning {
+    border-color: #b97429;
+    background-color: #CE812E;
+    color: #FFF
+}
+
+.lobibox-notify.lobibox-notify-warning:hover {
+    background-color: #CE812E;
+    border-color: #FFF
+}
+
+.lobibox-notify.lobibox-notify-info {
+    border-color: #296ba0;
+    background-color: #2E79B4;
+    color: #FFF
+}
+
+.lobibox-notify.lobibox-notify-info:hover {
+    background-color: #2E79B4;
+    border-color: #FFF
+}
+
+.lobibox-notify.rounded {
+    border-radius: 30px
+}
+
+.lobibox-notify:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 3px 3px 10px #aaa;
+    box-shadow: 3px 3px 10px #aaa
+}
+
+.lobibox-notify.notify-mini {
+    min-height: 36px
+}
+
+.lobibox-notify.notify-mini .lobibox-notify-title {
+    margin-top: -5px;
+    font-size: 20px;
+    line-height: 22px
+}
+
+.lobibox-notify.notify-mini .lobibox-notify-msg {
+    line-height: 16px
+}
+
+.lobibox-notify.notify-mini .lobibox-notify-icon-wrapper {
+    left: 12px;
+    width: 32px
+}
+
+.lobibox-notify.notify-mini .lobibox-notify-icon > div .icon-el {
+    font-size: 32px
+}
+
+.lobibox-notify.notify-mini .lobibox-notify-body {
+    margin: 15px 30px 15px 56px
+}
+
+.lobibox-notify.without-icon .lobibox-notify-body {
+    margin-left: 20px
+}

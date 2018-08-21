@@ -1,0 +1,23 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 349.92 349.92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #009fe3;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 22.93;
+        stroke-width: 11.34px;
+      }
+    </style>
+  </defs>
+  <title>ЦВЕТ3</title>
+  <path class="cls-1" d="M3279.07,999c96.36,0,175-78.6,175-175s-78.6-175-175-175-175,78.59-175,175S3182.7,999,3279.07,999Z" transform="translate(-3104.11 -649.05)"/>
+  <path class="cls-2" d="M3221.27,735.91l49.52,49.52m-67.34-28.17c-14,51.67,2.9,95.14,26.43,120.63s65.18,46,120.63,26.43m-76.93-124.14-16,16a38.31,38.31,0,0,0,0,54h0a38.31,38.31,0,0,0,54,0l16-16m-5.25,2.78,49.52,49.52" transform="translate(-3104.11 -649.05)"/>
+</svg>

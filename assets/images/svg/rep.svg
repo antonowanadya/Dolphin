@@ -1,0 +1,32 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171.57 172.31">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 22.93;
+        stroke-width: 11.34px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>вызов_без</title>
+  <g>
+    <line class="cls-1" x1="144.5" y1="144.24" x2="111.81" y2="111.56"/>
+    <line class="cls-1" x1="95.86" y1="95.6" x2="75.39" y2="75.13"/>
+    <line class="cls-1" x1="62.63" y1="62.37" x2="32.7" y2="32.44"/>
+    <path class="cls-2" d="M307.39,725.9l32,32a22.14,22.14,0,0,0,31.21,0h0a22.14,22.14,0,0,0,0-31.21l-32-32" transform="translate(-211.19 -598.74)"/>
+    <path class="cls-2" d="M236.08,610l-13.42,13.42,8.61,8.61a9.52,9.52,0,0,0,13.42,0h0a9.52,9.52,0,0,0,0-13.42Z" transform="translate(-211.19 -598.74)"/>
+    <path class="cls-2" d="M324.36,606.75l-12,12a35.32,35.32,0,0,0,0,49.8h0a35.32,35.32,0,0,0,49.8,0l12-12" transform="translate(-211.19 -598.74)"/>
+    <path class="cls-2" d="M340.34,622.74L332.11,631a12.64,12.64,0,0,0,0,17.83h0a12.64,12.64,0,0,0,17.83,0l8.24-8.24" transform="translate(-211.19 -598.74)"/>
+    <line class="cls-1" x1="133.16" y1="28.01" x2="109.16" y2="4.01"/>
+    <line class="cls-1" x1="166.96" y1="61.81" x2="142.95" y2="37.8"/>
+    <path class="cls-2" d="M250.59,759.59a19.76,19.76,0,0,1-28-28" transform="translate(-211.19 -598.74)"/>
+    <line class="cls-1" x1="66.58" y1="91.77" x2="10.89" y2="133.49"/>
+    <line class="cls-1" x1="80.65" y1="105.85" x2="38.93" y2="161.53"/>
+    <line class="cls-1" x1="31.74" y1="145.73" x2="20.76" y2="145.73"/>
+  </g>
+</svg>

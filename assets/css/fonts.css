@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/latolight.eot');
+    src: url('../fonts/Lato/latolight.eot?#iefix') format('embedded-opentype');
+    src: url('../fonts/Lato/latolight.woff2') format('woff2');
+    src:  url('../fonts/Lato/latolight.woff') format('woff');
+    src:  url('../fonts/Lato/latolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Lato/AvenirNext-Bold.ttf') format('truetype'),
+    url('../fonts/Lato/AvenirNext-Bold.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/lato-regular.eot');
+    src: url('../fonts/Lato/lato-regular.eot?#iefix') format('embedded-opentype');
+    src: url('../fonts/Lato/lato-regular.woff2') format('woff2');
+    src: url('../fonts/Lato/lato-regular.woff') format('woff');
+    src: url('../fonts/Lato/lato-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/lato-bold.eot');
+    src: url('../fonts/Lato/lato-bold.eot?#iefix') format('embedded-opentype');
+    src: url('../fonts/Lato/lato-bold.woff2') format('woff2');
+    src: url('../fonts/Lato/lato-bold.woff') format('woff');
+    src: url('../fonts/Lato/lato-bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/latosemibold.eot');
+    src: url('../fonts/Lato/latosemibold.eot?#iefix') format('embedded-opentype');
+    src:  url('../fonts/Lato/latosemibold.woff2') format('woff2');
+    src:  url('../fonts/Lato/latosemibold.woff') format('woff');
+    src:  url('../fonts/Lato/latosemibold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Lato/latoblack.woff2') format('woff2');
+    src: url('../fonts/Lato/latoblack.woff') format('woff');
+    src:  url('../fonts/Lato/latoblack.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/latoblack.eot');
+
+    src:  url('../fonts/Lato/latoblack.woff2') format('woff2');
+    src: url('../fonts/Lato/latoblack.woff') format('woff');
+    src:  url('../fonts/Lato/latoblack.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal
+}
